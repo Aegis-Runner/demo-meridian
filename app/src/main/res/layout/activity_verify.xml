@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F3F4F6">
+  <TextView android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center_vertical"
+    android:paddingStart="20dp" android:text="Meridian" android:textColor="#FFFFFF" android:textSize="18sp" android:textStyle="bold" android:background="#0B1020"/>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Device Verification" android:textColor="#1F2937" android:textSize="22sp" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirm this device to finish setup." android:textColor="#6B7280" android:layout_marginBottom="12dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#FFFFFF" android:padding="18dp">
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QR verification code" android:textColor="#374151"/>
+      <EditText android:id="@+id/v_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter the code from your authenticator app" android:contentDescription="QR verification code"/>
+    </LinearLayout>
+    <Button android:id="@+id/v_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Verify device" android:backgroundTint="#4F46E5" android:textColor="#FFFFFF" android:layout_marginTop="16dp"/>
+  </LinearLayout>
+</LinearLayout>

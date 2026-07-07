@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F3F4F6">
+  <TextView android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center_vertical"
+    android:paddingStart="20dp" android:text="Meridian" android:textColor="#FFFFFF" android:textSize="18sp" android:textStyle="bold" android:background="#0B1020"/>
+  <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+    <TextView android:id="@+id/detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Detail" android:textColor="#1F2937" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+    <LinearLayout android:id="@+id/detail_box" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#FFFFFF" android:padding="18dp"/>
+    <Button android:id="@+id/save_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save changes" android:backgroundTint="#4F46E5" android:textColor="#FFFFFF" android:layout_marginTop="16dp"/>
+    <Button android:id="@+id/delete_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delete" android:backgroundTint="#DC2626" android:textColor="#FFFFFF" android:layout_marginTop="10dp"/>
+   </LinearLayout>
+  </ScrollView>
+</LinearLayout>

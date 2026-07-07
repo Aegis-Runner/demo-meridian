@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent"
+  android:orientation="vertical" android:gravity="center" android:padding="28dp" android:background="#0B1020">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="#FFFFFF" android:padding="28dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="Meridian" android:textColor="#4F46E5" android:textSize="24sp" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="Access your operations console" android:textColor="#6B7280" android:layout_marginBottom="18dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email" android:textColor="#374151"/>
+    <EditText android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:hint="you@company.com" android:text="demo@meridian.test" android:inputType="textEmailAddress" android:contentDescription="Email"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" android:textColor="#374151" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:hint="Password" android:inputType="textPassword" android:contentDescription="Password"/>
+    <Button android:id="@+id/signin" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:text="Sign in" android:backgroundTint="#4F46E5" android:textColor="#FFFFFF" android:layout_marginTop="18dp"/>
+  </LinearLayout>
+</LinearLayout>
